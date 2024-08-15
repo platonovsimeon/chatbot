@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, {useState, useEffect} from 'react';
 import {createThread, fetchRun, fetchMessages, postMessage} from "./Api";
@@ -61,7 +60,7 @@ function App() {
   }, []);
 
   return (
-    <div className="md:container md:mx-auto lg:px-32 h-screen bg-slate-700 flex flex-col">
+    <div className="md:container md:mx-auto lg:px-32 h-screen bg-slate-800 flex flex-col">
       <div className="flex flex-col-reverse grow overflow-scroll">
           {renderedMessages}
       </div>

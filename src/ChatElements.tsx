@@ -20,7 +20,7 @@ export const ChatBox = ({disabled, onMessageSend}: any) => {
           name="message"
           className={
               "w-full " +
-              "bg-slate-700 " +
+              "bg-slate-800 " +
               "focus:outline-none "
           }
           placeholder="Kerro sairauksistasi."
